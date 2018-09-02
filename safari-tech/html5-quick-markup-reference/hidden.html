@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hidden Global Attribute</title>
+</head>
+<body>
+  <h1>Main Title</h1>
+  <h2 id="sub-title" hidden>Subtitle</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum vitae animi atque quod. Veritatis cumque sint saepe cupiditate dolore nulla?</p>
+  <button id="find-subtitle">Click</button>
+
+  <script>
+    var subtitle = document.getElementById("sub-title");
+    var button = document.getElementById("find-subtitle");
+
+    function toggleSubtitle() {
+      if (subtitle.hidden == true) {
+        subtitle.hidden = false;
+      } else {
+        subtitle.hidden = true;
+      }
+    }
+
+    button.addEventListener("click", toggleSubtitle, false);    
+  </script>
+</body>
+</html>
