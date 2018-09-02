@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>HTML - head tag</h1>
+  <h2>Title tag</h2>
+  <p>Search engines use the title tag content to determine the contents of the webpage.</p>
+  <h2>Meta tag</h2>
+  <p>Typically, meta tags have a name and content pairing. The name parameter is used to describe the type of meta
+    content and the content parameter is used for the information.</p>
+  <p>Examples of some meta tags include: description, keywords, robots, copyright, author, and charset (which is
+    unique compared to the other types of meta tags - it declares the character set used, usually either utf-8 for
+    western languages or utf-16 for languages with more than 256 characters).</p>
+
+  <h3>Meta tags - content data value pairs and their uses</h3>
+  <table>
+    <th>
+      <tr>Name Value</tr>
+      <tr>Content Value</tr>
+      <tr>Purpose or Usage</tr>
+    </th>
+    <tr>
+      <td>description</td>
+      <td>A description for the HTML document</td>
+      <td>Your search engine listing description content control</td>
+    </tr>
+    <tr>
+      <td>keywords</td>
+      <td>Your keyword list</td>
+      <td>SEO keyword suggestions</td>
+    </tr>
+    <tr>
+      <td>robots</td>
+      <td>index and follow</td>
+      <td>SEO robot instructions</td>
+    </tr>
+    <tr>
+      <td>copyright</td>
+      <td>Copyright dates</td>
+      <td>Document copyright dates</td>
+    </tr>
+    <tr>
+      <td>author</td>
+      <td>Author name</td>
+      <td>Document author(s) names</td>
+    </tr>
+    <tr>
+      <td>webauthor</td>
+      <td>Author name</td>
+      <td>Document author(s) names</td>
+    </tr>
+    <tr>
+      <td>charset</td>
+      <td>Character set used</td>
+      <td>Generally UTF-8 or UTF-16</td>
+    </tr>
+    <tr>
+      <td>abstract</td>
+      <td>Document summary</td>
+      <td>Abstract of content summary</td>
+    </tr>
+    <tr>
+      <td>revisit-after</td>
+      <td>Period (i.e., 9 days)</td>
+      <td>Robot revisit instructions</td>
+    </tr>
+    <tr>
+      <td>language</td>
+      <td>Name of language</td>
+      <td>Language used for document</td>
+    </tr>
+    <tr>
+      <td>distribution</td>
+      <td>global, local, IU</td>
+      <td>Global, local or internal distribution for document</td>
+    </tr>
+    <tr>
+      <td>expires</td>
+      <td>Date (1 Jan 2017)</td>
+      <td>Document content expiration</td>
+    </tr>
+    <tr>
+      <td>generator</td>
+      <td>Name of software</td>
+      <td>Document content generator</td>
+    </tr>
+    <tr>
+      <td>reply-to</td>
+      <td>E-mail address</td>
+      <td>Document contact information</td>
+    </tr>
+    <tr>
+      <td>no-email-collection</td>
+      <td>An anti-spam link</td>
+      <td>metatags.info/nospamharvest</td>
+    </tr>
+    <tr>
+      <td>rating</td>
+      <td>Intended audience</td>
+      <td>general, mature, restricted</td>
+    </tr>
+    <tr>
+      <td>googlebot</td>
+      <td>noodp</td>
+      <td>Use page description in ODP</td>
+    </tr>
+  </table>
+
+  <h3>http-equiv</h3>
+  <p>Used to define the HTTP header for the information values of content parameters.</p>
+
+  <table>
+    <tr>
+      <th>http-equiv </th>
+      <th> Content Value </th>
+      <th> Purpose or Usage</th>
+    </tr>
+
+    <tr>
+      <td>content-type</td>
+      <td>Media Type, CharSet</td>
+      <td>Define MIME type and charset</td>
+    </tr>
+
+    <tr>
+      <td>cache-control</td>
+      <td>Set cache settings</td>
+      <td>Defines caching parameters</td>
+    </tr>
+
+    <tr>
+      <td>cookie</td>
+      <td>Defines cookie file</td>
+      <td>Define cookie name and dates</td>
+    </tr>
+
+    <tr>
+      <td>content-disposition</td>
+      <td>Define applications</td>
+      <td>Defines file name extension</td>
+    </tr>
+
+    <tr>
+      <td>imagetoolbar</td>
+      <td>Shows image toolbar</td>
+      <td>Control display (IE) toolbar</td>
+    </tr>
+
+    <tr>
+      <td>MSThemeCompatible</td>
+      <td>Use WinXP UI theme</td>
+      <td>Sets WinXP UI theme for site</td>
+    </tr>
+
+    <tr>
+      <td>picslabel</td>
+      <td>Label image content</td>
+      <td>Allows imagery to be labeled</td>
+    </tr>
+
+    <tr>
+      <td>pragma</td>
+      <td>Sets HTTPS caching</td>
+      <td>Ensure HTTPS page not cached</td>
+    </tr>
+
+    <tr>
+      <td>Resource-Type</td>
+      <td>Defines resources</td>
+      <td>Define a page resource type</td>
+    </tr>
+
+    <tr>
+      <td>refresh</td>
+      <td>Time before refresh</td>
+      <td>Redirect after a time period</td>
+    </tr>
+
+    <tr>
+      <td>Content-Script-Type</td>
+      <td>Scripting language</td>
+      <td>Define a scripting language</td>
+    </tr>
+
+    <tr>
+      <td>Content-Style-Type</td>
+      <td>Style Sheet language</td>
+      <td>Define a style sheet language</td>
+    </tr>
+
+    <tr>
+      <td>window-target</td>
+      <td>Specify window name as a window target for HTML5 document rendering / parsing</td>
+      <td>Sets the window name for the webpage to be rendered in; generally used to break out of a frameset</td>
+    </tr>
+  </table>
+
+  <h3>The base tag</h3>
+  <p>Used to define the default URL. There can only be one base tag in the entire html document.</p>
+</body>
+
+</html>
