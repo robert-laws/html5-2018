@@ -1,10 +1,10 @@
 # HTML5 - Learning Resources
 
-September 2018
+Review of learning resources available for HTML5 including books, magazines, online training, podcasts, blogs, and youtube channels.
 
-Part 1 - Focusing on semantics in HTML5, especially use of HTML5 semantic elements.
+## Books
 
-## Pluralsight - Practical HTML5
+**[HTML5 Quick Markup Reference](books/html5-quick-markup-reference)** by Wallace Jackson (published June 22, 2016)
 
 Examples here include ways to structure page content semantically based on the examples shown in the videos.
 
@@ -12,7 +12,6 @@ Examples here include ways to structure page content semantically based on the e
 <!-- Welcome text -->
 <section id="welcome-text">
   <header>Website Tagline</header>
-  <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. At officiis optio vel, qui est exercitationem sequi,
-    quia laudantium quisquam fugiat quis quidem amet voluptatum reiciendis nisi nihil ea reprehenderit illum!</span>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 </section>
 ```
