@@ -1,4 +1,4 @@
-# HTML5 - Learning Resources
+# Learning - HTML5
 
 Review of learning resources available for HTML5 including books, magazines, online training, podcasts, blogs, and youtube channels.
 
