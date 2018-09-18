@@ -3,9 +3,15 @@
 **Highlights**
 
 * [Top-Level Document Definition](#top-level-document-definition)
-* Search Engine Optimization - Title and Meta
+* [Search Engine Optimization](#search-engine-optimization) - Title and Meta
 * Favicons
 * Document Content Hierarchy
 * Semantic Elements
 
 ## Top-Level Document Definition
+
+...
+
+## Search Engine Optimization
+
+...
