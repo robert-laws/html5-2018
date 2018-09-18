@@ -16,7 +16,7 @@
 
 ## Search Engine Optimization
 
-[Example Webpage](search-engine-optimization.html)
+[View Example](search-engine-optimization.html)
 
 When defining meta tags a name-value pair is required, consisting of a name and content attribute in the meta tag.
 
@@ -37,9 +37,17 @@ The base tag is used to define the base URL for the webpage.
 <base url="http://www.example.com">
 ```
 
-...
-
 ## Favicons
+
+[View Example](favicon.html)
+
+the `link` tag is used to set a favicon for a webpage. This is used by defining the rel attribute as *icon* and an href value.
+
+```html
+<link rel="icon" href="images/favicon.ico">
+```
+
+The rel="icon" attribute can be used for other types of icons, such as for apple touch devices.
 
 ...
 
