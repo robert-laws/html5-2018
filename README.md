@@ -1,12 +1,26 @@
-# Learning - HTML5
+# HTML5 - 2018
 
-Review of learning resources available for HTML5 including books, magazines, online training, podcasts, blogs, and youtube channels.
+Learning and skills practice for HTML5
 
-## Books
+## Learning
 
-**[HTML5 Quick Markup Reference](books/html5-quick-markup-reference)** by Wallace Jackson (published June 22, 2016)
+**[Pluralsight Courses](learning/pluralsight)**
 
-Examples here include ways to structure page content semantically based on the examples shown in the videos.
+* [Practical HTML](learning/pluralsight/practical-html)
+
+**[Safari Tech Books](learning/safari-tech-books)**
+
+* [HTML5 Quick Markup Reference](learning/safari-tech-books/html5-quick-markup-reference) by Wallace Jackson (published June 22, 2016)
+
+## Skills Practice
+
+**[Skills Practice](skills-practice)**
+
+* [HTML5 Layouts](skills-practice/html5-layouts)
+
+## Notes
+
+General notes and comments here.
 
 ```html
 <!-- Welcome text -->
