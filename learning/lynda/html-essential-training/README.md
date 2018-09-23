@@ -28,4 +28,4 @@ Semantic Elements - help add meaning to your document
 
 * `<footer>`
 
-Example of using structuring and semantic elements: [Sample HTML - Document Outline Only](document-outline.html) and [Sample HTML - Including Semantic Elements](semnatic-elements.html)
+Example of using structuring and semantic elements: [Sample HTML - Document Outline Only](document-outline.html) and [Sample HTML - Including Semantic Elements](semantic-elements.html)
