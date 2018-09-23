@@ -51,10 +51,33 @@ The rel="icon" attribute can be used for other types of icons, such as for apple
 
 ...
 
-## Document Content Hierarchy
+## Chapter 9 - Document Content Hierarchy
 
-...
+Heading level tags should be used for adding semantic value to contnet. Level 1 heading `<h1>` being the most important and `<h6>` being the least important.
+
+The heading tags are used to create an outline of the document. Use the [Chrome HTML5 outliner extension](https://github.com/h5o/h5o-chrome) to view the document outline in the browser.
 
 ## Semantic Elements
 
-...
+HTML5 semantic elements are used to organize content into a logical content hierarchy. The [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) is very good reference for HTML5 elements are their usage.
+
+The main elements used to achieve semantic hierarchy are:
+
+HTML5 sectioning content - *block level*
+
+* header - header information of the document or content section
+* footer - footer information of the document or content section
+* section - a distinct section of a webpage
+* article - a self-contained composition in a document
+* main - the main content area for the document
+* nav - navigational content
+* aside - portion of a document whose content is indirectly related to the main content
+* figure - used in conjunction with figcaption, it represents content that is accompanied by a caption
+* figcaption - caption contnet used with a figure
+
+Additional HTML5 elements - *flow content*
+
+* details - content hidden and accompanied by visible content in a summary element
+* summary - the visible content used in conjunction and as a child of a details element
+* mark - text which is marked or highlighted for semantic purposes
+* time - represents a specific period of time
