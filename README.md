@@ -14,7 +14,13 @@ Learning and skills practice for HTML5
 
 ## Skills Practice
 
-**[Skills Practice](skills-practice)**
+1. [HTML5 Layouts](skills-practice/html5-layouts)
+
+    1. [Simple Layout](skills-practice/html5-layouts/simple-layout.html)
+
+    1. [Blog Post](skills-practice/html5-layouts/blog-post.html)
+
+    1. [Project Detail Page](skills-practice/html5-layouts/project-detail.html)
 
 * [HTML5 Layouts](skills-practice/html5-layouts)
 

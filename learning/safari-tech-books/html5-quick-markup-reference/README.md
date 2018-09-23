@@ -51,7 +51,7 @@ The rel="icon" attribute can be used for other types of icons, such as for apple
 
 ...
 
-## Chapter 9 - Document Content Hierarchy
+## [Chapter 9 - Document Content Hierarchy](content-hierarchy.html)
 
 Heading level tags should be used for adding semantic value to contnet. Level 1 heading `<h1>` being the most important and `<h6>` being the least important.
 
