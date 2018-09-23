@@ -1,28 +1,38 @@
 # HTML5 - 2018
 
-Learning and skills practice for HTML5
+Learning and skills practice for HTML5.
 
-## Learning
+---
 
-**[Pluralsight Courses](learning/pluralsight)**
+## [Learning](learning)
 
-* [Practical HTML](learning/pluralsight/practical-html)
+### [Pluralsight Courses](learning/pluralsight)
 
-**[Safari Tech Books](learning/safari-tech-books)**
+  * [Practical HTML](learning/pluralsight/practical-html)
 
-* [HTML5 Quick Markup Reference](learning/safari-tech-books/html5-quick-markup-reference) by Wallace Jackson (published June 22, 2016)
+### [Safari Tech Books](learning/safari-tech-books)
 
-## Skills Practice
+  * [HTML5 Quick Markup Reference](learning/safari-tech-books/html5-quick-markup-reference) by Wallace Jackson (published June 22, 2016)
 
-1. [HTML5 Layouts](skills-practice/html5-layouts)
+### [Lynda.com](learning/lynda)
 
-    1. [Simple Layout](skills-practice/html5-layouts/simple-layout.html)
+  * [HTML Essential Training](learning/lynda/html-essential-training)
 
-    1. [Blog Post](skills-practice/html5-layouts/blog-post.html)
+---
 
-    1. [Project Detail Page](skills-practice/html5-layouts/project-detail.html)
+## [Skills Practice](skills-practice)
 
-* [HTML5 Layouts](skills-practice/html5-layouts)
+### [HTML5 Layouts](skills-practice/html5-layouts)
+
+  1. [Simple Layout](skills-practice/html5-layouts/simple-layout.html)
+
+  1. [Blog Post](skills-practice/html5-layouts/blog-post.html)
+
+  1. [Project Detail Page](skills-practice/html5-layouts/project-detail.html)
+
+### [HTML5 Layouts](skills-practice/html5-layouts)
+
+---
 
 ## Notes
 
