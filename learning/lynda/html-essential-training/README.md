@@ -14,6 +14,10 @@
 
 * [Div Element](#div-element)
 
+* [Other Sectioning Elements](#other-sectioning-elements)
+
+* [WAI-ARIA](#wai-aria)
+
 ---
 
 ## Structuring Content
@@ -63,3 +67,17 @@ Represents related content that has a tangential relationship to the parent cont
 ## Div Element
 
 Best used for content that needs to be grouped together, but doesn't convey any semantic value by itself. Recommended to be used as an element of *last resort* when no other elements are available and can convey some semantic meaning. Ideal for stylistic purposes. [Sample Div Element Usage](div.html)
+
+## Other Sectioning Elements
+
+Included are the `<main>`, `<header>`, and `<footer>` elements. The header and footer are used for introductory or closing content for it's nearest ancestor. They can be used at the root of the document outline or inside other elements. The main element can only be used once on the page and is content that is unique and not repeated across multiple pages. The main tag is also used to allow assistive devices to identify the main content of the page [Sample Usage of Other Elements](other.html)
+
+## WAI-ARIA
+
+Stands for Web Accessibility Iniative - Accessible Rich Internet Applications. There are many applications of the ARIA tools. For example, use of the `landmark roles` attribute allows accessibility tools to jump directly to identified content. [Sample Usage of WAI-ARIA landmark roles](wai-aria.html)
+
+Other useful WAI-ARIA resources:
+
+* [Using ARIA from W3C](https://www.w3.org/TR/using-aria/)
+
+* [WAI-ARIA basics from MDN](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics)
